@@ -38,8 +38,9 @@ function run(Tester\TestCase $testCase) {
 
 
 
-class HttpServer extends Nette\Object
+class HttpServer
 {
+    use Nette\SmartObject;
 
 	/**
 	 * @var array
