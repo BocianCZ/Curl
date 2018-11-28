@@ -27,7 +27,7 @@ use Nette\Utils\Strings;
  */
 class Response
 {
-    use SmartObject;
+    use Nette\SmartObject;
 
 	/** @var array */
 	private $headers;
